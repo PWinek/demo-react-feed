@@ -1,0 +1,18 @@
+@import './settings.scss';
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,700');
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  text-shadow: 2px 2px black;
+  font-size: ($base-size * 2);
+}
+
+a:hover {
+  text-shadow: 1px 1px black;
+  text-decoration: none;
+}
+
+a {
+  color: $color-light;
+  text-shadow: 1px 1px black;
+}
